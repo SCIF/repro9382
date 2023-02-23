@@ -1,6 +1,6 @@
 FROM php:8.1-alpine
 
-COPY --link --from=composer:2 /usr/bin/composer /usr/local/bin/composer
+COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
 
 RUN docker-php-ext-install opcache bcmath
 
