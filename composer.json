@@ -1,0 +1,20 @@
+{
+    "name": "root/app",
+    "autoload": {
+        "psr-4": {
+            "Root\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Z"
+        }
+    ],
+    "require-dev": {
+        "vimeo/psalm": "^5.7",
+        "php-standard-library/psalm-plugin": "^2.2"
+    },
+    "require": {
+        "azjezz/psl": "^2.4"
+    }
+}
